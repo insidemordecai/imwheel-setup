@@ -1,12 +1,10 @@
 #!/bin/bash
-# Version 0.1 Tuesday, 07 May 2013
-#
 ### see if imwheel config exists, if not create it ###
 if [ ! -f ~/.imwheelrc ]
 then
 
 cat >~/.imwheelrc<<EOF
-"^google-chrome$"
+".*"
 None,      Up,   Button4, 1
 None,      Down, Button5, 1
 Control_L, Up,   Control_L|Button4
